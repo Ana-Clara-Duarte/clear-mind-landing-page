@@ -1,0 +1,206 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Petemoss&display=swap');
+
+:root {
+    --c01: #ffffff;
+    --c02: #f3f3f3;
+    --c03: #000000;
+    --c04: #8a8a8a;
+    --c05: rgb(177, 177, 177);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* base */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--c02);
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 96%;
+    min-height: 90vh;
+
+    padding: 20px 70px 20px 70px;
+
+    background-color: var(--c01);
+    box-shadow: 50px 50px 50px 50px rgba(163, 163, 163, 0.233);
+
+    border-radius: 30px
+}
+
+/* base */
+
+
+
+
+/* header*/
+header {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure > h1 {
+    font-size: 1.5rem;
+}
+
+header > ul {
+    display: flex;
+    gap: 20px;
+}
+
+header > ul > li > a{
+    color: var(--c03);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+header > a > button {
+    background-color: var(--c03);
+    color: var(--c01);
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+}
+/* header */
+
+
+
+
+/* titulo-descricoes */
+.titulo-descricoes {
+    /* background-color: lightgreen; */
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-descricoes h1 {
+    font-size: 6.0rem;
+}
+
+#fonte-padrao {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#fonte-cursiva {
+    font-family: "Petemoss", cursive;
+    margin-top: -20px;
+    font-size: 8.0rem;
+    font-weight: 500;
+}
+
+p {
+    width: 100%;
+    margin-top: 20px;
+    max-width: 450px;
+    text-align: center;
+    color: var(--c04);
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    /* background-color: lightskyblue; */
+}
+
+.buttons > a > button {
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+#button-black {
+    background-color: var(--c03);
+    color: var(--c01);
+}
+
+#button-white {
+    background-color: var(--c01);
+}
+/* titulo-descricoes */
+
+
+
+
+/* imagens */
+.imagens {
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.div2 > img {
+    width: 100%;
+    margin-right: 100px;
+    max-width: 700px;
+}
+
+
+
+.div1 > img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.div1 > hr {
+    width: 80px;
+    background-color: var(--c05);
+    height: 3px;
+    margin-bottom: 15px;
+}
+
+.div1 > p {
+    margin-top: 5px;
+}
+
+.div3 {
+    display: flex;
+    background-color: lightblue;
+    gap: 20px;
+
+}
+
+.pes {
+    display: flex;
+    flex-direction: column;
+}
+
+.pes> p {
+    margin-top: 5px;
+}
+.div3 > hr {
+     width: 80px;
+    background-color: var(--c05);
+    height: 3px;
+    margin-bottom: 15px;
+}
+
+
+
+/* imagens */
