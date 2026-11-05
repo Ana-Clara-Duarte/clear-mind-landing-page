@@ -1,76 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
     <title>Clear Mind</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>
-            <figure>
-                <h1>Mindly</h1>
-            </figure>
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Integrations</a></li>
-                <li><a href="#">Princing</a></li>
-            </ul>
+      <header>
+
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <figure>
+          <h1>Mindly</h1>
+        </figure>
+        <ul class="menu">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li><a href="#">Princing</a></li>
+        </ul>
+        <a href="">
+          <button>
+            Get the app
+            <i class="fi fi-sr-arrow-up-right"></i>
+          </button>
+        </a>
+      </header>
+
+      <section class="div-cont">
+
+        <section class="titulo-descricoes">
+          <h1 id="fonte-padrao">A clearer mind</h1>
+
+          <h1 id="fonte-cursiva">for a brighter you</h1>
+
+          <p>
+            Mindly helps you capture ideas, organize your thoughts, and stay
+            focused - all in one beatiful space
+          </p>
+
+          <div class="buttons">
+
             <a href="">
-                <button>
-                    Get the app
-                    <i class="fi fi-sr-arrow-up-right"></i>
-                </button>
+              <button id="button-black">
+                Get started free
+                <i class="fi fi-rr-arrow-right"></i>
+              </button>
             </a>
-        </header>
+            <a href="">
+              <button id="button-white">
+                <i class="fi fi-sr-play-circle"></i>
+                Watch video
+              </button>
+            </a>
 
-        <section class="div-cont">
-            <section class="titulo-descricoes">
-                <h1 id="fonte-padrao">A clearer mind</h1>
-                <h1 id="fonte-cursiva">for a brighter you</h1>
-                <p>Mindly helps you capture ideas, organize your thoughts, and stay focused - all in one beatiful space</p>
-                <div class="buttons">
-                    <a href="">
-                        <button id="button-black">
-                            Get started free
-                            <i class="fi fi-rr-arrow-right"></i>
-                        </button>
-                    </a>
-                    <a href="">
-                        <button id="button-white">
-                            <i class="fi fi-sr-play-circle"></i>
-                            Watch video
-                        </button>
-                    </a>
-                </div>
-            </section>
-            <section class="imagens"> 
+          </div>
 
-            <div class="img1 left">
-                <div class="icont"><i class="fi fi-sr-waveform-path"></i></div>
-                <h3>Turn thoughts <br> into progress</h3>
-                <p>Capture, organize and <br> do more</p>
-            </div>
-
-            <div class="div2">
-                <img src="img/img-principal-blackwhite.jpg" alt="">
-            </div>
-
-            <div class="img1 right">
-                <img src="img/pessoas-feedback.jpg" alt="">
-                <h3>Ideas, anytime, <br> anywhere.</h3>
-                <p>Sync across all your devices</p>
-            </div> 
-            </section>
         </section>
-        
 
-    
+        <section class="imagens">
+
+            <!-- <div class="img1 deco" id="deco1">
+                <img src="img/img-dec1.jpg" alt="">
+            </div>
+
+            <div class="img1 deco" id="deco2">
+
+            </div> -->
+
+          <div class="img1 left" id="card1">
+
+            <span class="drag-hint">
+              <i class="fi fi-sr-tap"></i>
+              <h3>Arraste-me!</h3>
+            </span>
+
+            <div class="icont">
+                <i class="fi fi-sr-waveform-path"></i>
+            </div>
+
+            <h3>
+              Turn thoughts <br/>
+              into progress
+            </h3>
+
+            <p>
+              Capture, organize and <br/>
+              do more
+            </p>
+
+          </div>
+
+          <div class="div2">
+            <img
+              src="img/img-principal-blackwhite.jpg"
+              alt="Imagem principal"
+              id="img-div2"
+              class="img-base"
+            />
+
+            <img
+              src="img/img-principal-rainbowl.jpg"
+              alt=""
+              class="img-hover"
+            />
+          </div>
+
+          <div class="img1 right" id="card2">
+
+            <span class="drag-hint">
+              <i class="fi fi-sr-tap"></i>
+              <h3>Arraste-me!</h3>
+            </span>
+
+            <img src="img/pessoas-feedback.jpg" alt="" />
+            
+            <h3>
+              Ideas, anytime, <br />
+              anywhere.
+            </h3>
+
+            <p>Sync across all your devices</p>
+
+          </div>
+
+        </section>
+      </section>
     </main>
 
-</body>
-</html> 
+    <script src="script.js"></script>
+  </body>
+</html>
