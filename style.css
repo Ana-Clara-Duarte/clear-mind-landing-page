@@ -368,9 +368,6 @@ p {
     height: auto;
 }
 
-.div2 .img-base {
-}
-
 .div2 .img-hover {
     position: absolute;
     left: 0;
@@ -387,9 +384,6 @@ p {
 .div2:hover .img-hover {
     opacity: 1;
 }
-
-
-
 
 .img1 {
     background-color: var(--c01);
@@ -455,6 +449,17 @@ i {
     transform: rotate(10deg);
     position: relative;
     top: -100px;
+}
+
+.dec img {
+    width: 50px;
+}
+
+.dec01 img {
+    position: absolute;
+    top: 560px;
+    left: 290px;
+    z-index: 10;
 }
 
 .drag-hint {
