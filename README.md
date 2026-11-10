@@ -3,7 +3,7 @@
 
 A responsive landing page featuring interactive animations, dynamic card movements, and a unique visual experience.
 
-## ✨ About the Project
+## About the Project
 
 **Clear Mind** is a responsive landing page designed to explore creativity, movement, and interactive visual effects.
 
@@ -16,7 +16,7 @@ The project combines modern design, smooth animations, and interactive elements 
   <img src="./img/clear-mind-mobile.gif" width="200px" alt="Clear Mind dotted trail animation">
 </p>
 
-## 🚀 Features
+## Features
 
 - **Responsive Design:** Adapts to different screen sizes and devices.
 - **Interactive Cards:** Dynamic card movements across the screen.
@@ -24,11 +24,11 @@ The project combines modern design, smooth animations, and interactive elements 
 - **Smooth Animations:** Fluid movements and transitions for a more engaging experience.
 - **Modern Interface:** A visually appealing layout focused on movement and interaction.
 
-## 🛠️ Technologies
+## Technologies
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-## 🎨 Visual Experience
+## Visual Experience
 
 The project uses animated cards as its main visual element.
 
@@ -36,7 +36,7 @@ As the cards move across the screen, a dotted trail follows their movements, cre
 
 The goal is to deliver a distinctive visual experience while maintaining a clean layout and responsive behavior.
 
-## 📱 Responsiveness
+## Responsiveness
 
 The interface is designed to adapt to different screen sizes, maintaining its visual structure and usability across desktop and mobile devices.
 
