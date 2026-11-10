@@ -1,5 +1,5 @@
 
-# Clear Mind
+# Project Clear Mind
 
 **Clear Mind** is a responsive landing page designed to explore creativity, movement, and interactive visual effects.
 
