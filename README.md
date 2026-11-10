@@ -26,7 +26,7 @@ The project combines modern design, smooth animations, and interactive elements 
 
 ## Technologies
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-1000?style=plastic&logo=html5&logoColor=ffffff&labelColor=E34F26&color=e34f26) ![CSS](https://img.shields.io/badge/CSS-1000?style=plastic&logo=css&logoColor=ffffff&labelColor=4e78ca&color=4e78ca) ![JavaScript](https://img.shields.io/badge/JavaScript-1000?style=plastic&logo=javascript&logoColor=000000&labelColor=F7DF1E&color=f7df1e) ![Figma](https://img.shields.io/badge/Figma-1000?style=plastic&logo=figma&logoColor=ffffff&labelColor=b751e6&color=b751e6)
 
 ## Visual Experience
 
