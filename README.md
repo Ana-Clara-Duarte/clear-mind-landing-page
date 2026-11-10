@@ -12,8 +12,8 @@ Its main highlight is the movement of cards across the screen, leaving a dotted 
 The project combines modern design, smooth animations, and interactive elements to create a visually distinctive interface.
 
 <p align="center">
-  <img src="./img/clear-mind.gif" width="49%" alt="Clear Mind interactive cards animation">
-  <img src="./img/clear-mind-mobile.gif" width="49%" alt="Clear Mind dotted trail animation">
+  <img src="./img/clear-mind.gif" width="400px" alt="Clear Mind interactive cards animation">
+  <img src="./img/clear-mind-mobile.gif" width="200px" alt="Clear Mind dotted trail animation">
 </p>
 
 ## 🚀 Features
