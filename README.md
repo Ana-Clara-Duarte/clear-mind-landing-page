@@ -1,10 +1,6 @@
 
 # Clear Mind
 
-A responsive landing page featuring interactive animations, dynamic card movements, and a unique visual experience.
-
-## About the Project
-
 **Clear Mind** is a responsive landing page designed to explore creativity, movement, and interactive visual effects.
 
 Its main highlight is the movement of cards across the screen, leaving a dotted trail that follows their paths and creates a dynamic, engaging experience.
