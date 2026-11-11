@@ -154,10 +154,17 @@ header > a > button > i {
 .menu-toggle {
     display: none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
     background: none;
     border: none;
     cursor: pointer;
+    position: relative;
+    z-index: 1001;
 }
 
 .menu-toggle span {
@@ -165,12 +172,27 @@ header > a > button > i {
     height: 2px;
     background-color: var(--c03);
     border-radius: 20px;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.menu-toggle.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .menu {
     display: flex;
     gap: 25px;
 }
+
+
 
 /* botão hambúrguer */
 
@@ -625,12 +647,13 @@ i {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 100px;
         right: 20px;
         padding: 20px;
         background-color: var(--c01);
         border-radius: 12px;
         width:90%;
+        box-shadow: 10px 10px 20px rgba(160, 160, 160, 0.404);
 
     }
 

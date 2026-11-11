@@ -191,6 +191,9 @@ if (menuToggle && menu) {
 
         menu.classList.toggle("active");
 
+        // Alterna o ícone entre hambúrguer e X
+        menuToggle.classList.toggle("active");
+
         const aberto = menu.classList.contains("active");
 
         menuToggle.setAttribute("aria-expanded", aberto);
